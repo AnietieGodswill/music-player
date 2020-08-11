@@ -36,6 +36,7 @@ def next_b():
     song_str.set(list_songs[count])
     audio = MP3(list_songs[count])
     tot_len = int(audio.info.length)
+    
     progressbar['maximum'] = tot_len
     prog_bar_end.configure(text='{}'.format(str(timedelta(seconds=tot_len))))
     prog_bar_1()
