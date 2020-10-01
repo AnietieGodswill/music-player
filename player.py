@@ -118,7 +118,7 @@ prog_bar_end.grid(row=8,column=3)
 
 #root.config(bg="green")
 root.title("Music Player")
-root.geometry('900x780+200+50')
+root.geometry('900x780+200+40')
 root.resizable(0,0)
 root.configure(bg='black')
 root.mainloop()
